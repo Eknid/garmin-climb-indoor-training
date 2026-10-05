@@ -1,0 +1,38 @@
+{
+  "Climb-Indoor-Training-beta.iq": {
+    "bytes": 239724,
+    "sha256": "dc6128f758c630f1405a5fb01640663a7f5bc8c2ae9780b7e09ff274503e384b"
+  },
+  "Climb-Indoor-Training.iq": {
+    "bytes": 239758,
+    "sha256": "47d3630dd7db82e96932dd810f6eac08a9f0ea23dbbc6064a4d7e6b567fe7ade"
+  },
+  "Climb-Indoor-Training.prg": {
+    "bytes": 51132,
+    "sha256": "1c4d2e01c6bf735bbf1b26cf7371970a84320061313b1c98bffbfb75363c097a"
+  },
+  "Climb-fenix843mm.prg": {
+    "bytes": 48412,
+    "sha256": "8b1600984355252b50a71e05d0944ce2de955abee2e1b4c79137ca77da84cf47"
+  },
+  "Climb-fenix847mm.prg": {
+    "bytes": 51132,
+    "sha256": "1c4d2e01c6bf735bbf1b26cf7371970a84320061313b1c98bffbfb75363c097a"
+  },
+  "Climb-fenix8pro47mm.prg": {
+    "bytes": 51132,
+    "sha256": "1c4d2e01c6bf735bbf1b26cf7371970a84320061313b1c98bffbfb75363c097a"
+  },
+  "Climb-fenix8solar47mm.prg": {
+    "bytes": 42652,
+    "sha256": "1986d999527bc0238d277cb9e4496204ead581d4b6a7b88eff2e944939c042a0"
+  },
+  "Climb-fenix8solar51mm.prg": {
+    "bytes": 42652,
+    "sha256": "1986d999527bc0238d277cb9e4496204ead581d4b6a7b88eff2e944939c042a0"
+  },
+  "Climb.prg": {
+    "bytes": 51132,
+    "sha256": "1c4d2e01c6bf735bbf1b26cf7371970a84320061313b1c98bffbfb75363c097a"
+  }
+}

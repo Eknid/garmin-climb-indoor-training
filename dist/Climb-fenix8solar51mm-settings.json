@@ -1,0 +1,159 @@
+{
+  "settings" : [ {
+    "key" : "lastMode",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "SettingNextMode",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "ModeRope",
+      "value" : 1
+    }, {
+      "display" : "ModeBoulder",
+      "value" : 2
+    }, {
+      "display" : "ModeAuto",
+      "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "endSensitivity",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "SettingEndSensitivity",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SensitivityConservative",
+      "value" : 0
+    }, {
+      "display" : "SensitivityNormal",
+      "value" : 1
+    }, {
+      "display" : "SensitivitySensitive",
+      "value" : 2
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "startSensitivity",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "SettingStartSensitivity",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SensitivityConservative",
+      "value" : 0
+    }, {
+      "display" : "SensitivityNormal",
+      "value" : 1
+    }, {
+      "display" : "SensitivitySensitive",
+      "value" : 2
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "summarySeconds",
+    "valueType" : "number",
+    "defaultValue" : 4,
+    "configTitle" : "SettingSummaryDuration",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SummarySeconds2",
+      "value" : 2
+    }, {
+      "display" : "SummarySeconds4",
+      "value" : 4
+    }, {
+      "display" : "SummarySeconds6",
+      "value" : 6
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "FitClimbMode" : "1 Rope / 2 Boulder / 3 Auto",
+      "SummarySeconds2" : "2 seconds",
+      "SensitivityNormal" : "Normal",
+      "SensitivityConservative" : "Conservative",
+      "SummarySeconds4" : "4 seconds",
+      "SummarySeconds6" : "6 seconds",
+      "SettingSummaryDuration" : "Summary Duration",
+      "FitUnitMeters" : "m",
+      "FitUnrated" : "Unrated Climbs",
+      "FitRopeClimbs" : "Rope Climbs",
+      "FitSchemaVersion" : "Climb Schema Version",
+      "FitRopeResults" : "Rope Success / Failed",
+      "FitClimbRated" : "Result recorded",
+      "FitUnitCount" : "count",
+      "FitClimbFailure" : "Failed",
+      "FitTotalClimbs" : "Total Climbs",
+      "FitUnitId" : "ID",
+      "SettingNextMode" : "Mode for Next Climb",
+      "FitUnitVersion" : "version",
+      "SettingStartSensitivity" : "Auto Start Sensitivity",
+      "FitAttemptId" : "Attempt ID",
+      "FitTotalVertical" : "Total Vertical",
+      "FitClimbNumber" : "Climb Number",
+      "FitSessionAverageHeartRate" : "Session Average Heart Rate",
+      "FitUnitCode" : "code",
+      "FitAutoClimbs" : "Auto Climbs",
+      "FitClimbSuccess" : "Successful",
+      "FitClimbingTime" : "Climbing Time",
+      "FitUnitBits" : "bits",
+      "FitUnitSeconds" : "s",
+      "ModeBoulder" : "Boulder",
+      "FitRestTime" : "Rest Time",
+      "ModeRope" : "Rope",
+      "FitUnitPercent" : "%",
+      "FitMaximumClimbHeight" : "Maximum Climb Height",
+      "AppName" : "Climb Indoor Training",
+      "FitSuccessPercent" : "Success Rate",
+      "FitClimbMaximumHeartRate" : "Climb Maximum Heart Rate",
+      "FitSessionMaximumHeartRate" : "Session Maximum Heart Rate",
+      "FitUnitBpm" : "bpm",
+      "FitElapsedTime" : "Elapsed Time",
+      "FitAutoResults" : "Auto Success / Failed",
+      "FitClimbHeight" : "Climb Height",
+      "FitClimbAverageHeartRate" : "Climb Average Heart Rate",
+      "FitBoulderResults" : "Boulder Success / Failed",
+      "FitValidValues" : "Valid Values",
+      "ModeAuto" : "Auto",
+      "SettingEndSensitivity" : "Auto End Sensitivity",
+      "FitRestBefore" : "Rest Before",
+      "FitFailures" : "Failed Climbs",
+      "SensitivitySensitive" : "Sensitive",
+      "FitClimbDuration" : "Climb Duration",
+      "FitEndReason" : "End Reason",
+      "FitBoulderClimbs" : "Boulder Climbs",
+      "FitSuccesses" : "Successful Climbs"
+    }
+  }
+}

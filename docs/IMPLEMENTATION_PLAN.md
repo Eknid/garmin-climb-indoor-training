@@ -1,0 +1,20 @@
+# Implementation and validation gates
+
+Status recorded on 2026-10-04. The attached requirements are retained in [SPECIFICATION.md](SPECIFICATION.md). All M0 through M7 software gates are complete. M3 Rope detection passed its gate and independent Sol review. M5's mixed-mode FIT fixture decoded with expected fields, values, CRC, and cleared-tail behavior. Experimental M6 Auto detection passed integration gates. Development-only trace logging is included in the verified source; Rope and Auto still need physical calibration.
+
+| Gate | Scope | Required evidence | Status |
+|---|---|---|---|
+| M0 | SDK, verified targets, project foundation | SDK/device inventory, foundation build, simulator and test tooling available | Complete |
+| M1 | Explicit states, manual session/climb lifecycle, recording, UI | Build; start, manual climb start/finish, pause/resume/save/discard; recording lifecycle tests | Complete |
+| M2 | Manual Boulder workflow, statistics, rest, summaries | Build; Boulder flow, stats/rest/summary checks | Complete |
+| M3 | Altitude filtering and conservative Rope descent detection | Synthetic ascent/dip/descent traces, production compile, simulator launch, Sol review | Complete; 26 tests pass, zero warnings, Sol approved |
+| M4 | Mixed modes and settings | Mode switching between climbs, active-mode lock, settings persistence/integration check | Complete for manual mixed-mode flow |
+| M5 | FIT climb/session developer fields | Decode saved FIT; validate field semantics, lap alignment and values; Sol review | Complete; saved mixed-mode fixture passed 22-field/value, CRC, and tail-lap validation |
+| M6 | Experimental Auto start/end with manual override | Noise, drift, candidate and valid traces; integration tests; Sol review | Complete as software; real-world threshold calibration remains |
+| M7 | Lifecycle resilience, diagnostics, UI polish, documentation, device artifact | Full regression, simulator acceptance, variant builds, final review, sideloadable PRG | Complete as software; physical watch installation/calibration remains |
+
+The fresh full Run No Evil summary for the trace-updated source is 50 passed, 0 failed, and 0 errors, with zero compiler warnings. Coverage includes native ActivityRecording pause/resume/lap/save/discard, real-recorder mixed-mode acceptance, Auto start/end and manual overrides, view/controller integration, lifecycle/storage regressions, and 100-climb local history persistence/readback. Measured domain memory was 145,368 bytes at 100 climbs and 236,512 bytes at 256; system RAM reported by `System.getSystemStats().usedMemory` was 101,776 bytes after the native 100-climb storage/readback test (this is a RAM measurement, not storage capacity). The native mixed-mode FIT golden activity decoded with Garmin FIT SDK 21.217: all 22 developer fields and expected values matched across three climbs and the session summary, CRC/integrity passed, and the final cleared tail lap was verified. The separate controller-level Auto acceptance artifact is [`validation/acceptance.fit`](../validation/acceptance.fit) with decoded results in [`validation/acceptance.json`](../validation/acceptance.json). See [FIT_FIELDS.md](FIT_FIELDS.md) for the golden fixture and schema details. All five signed release profiles have been rebuilt from the trace-updated source with zero warnings; startup launch smokes passed for all five current binaries (records are in [`validation/launches.json`](../validation/launches.json)). The user previously confirmed the app screen is visible; automated screenshot evidence remains unavailable because OS automation permissions deny the capture flow.
+
+Rope starts manually and can finish on confirmed descent, with BACK/LAP as manual fallback. Boulder uses manual start/finish. M5 FIT fields and M6 experimental Auto pass software validation. All software gates are complete; no physical-watch sideload or real-climbing calibration has occurred.
+
+Review actual code and test output rather than relying only on summaries. Hardware threshold calibration follows software validation and must not be represented as complete based on synthetic traces.

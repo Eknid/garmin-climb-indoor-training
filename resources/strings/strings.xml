@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <string id="AppName">Climb Indoor Training</string>
+
+    <string id="SettingNextMode">Mode for Next Climb</string>
+    <string id="ModeRope">Rope</string>
+    <string id="ModeBoulder">Boulder</string>
+    <string id="ModeAuto">Auto</string>
+
+    <string id="SettingEndSensitivity">Auto End Sensitivity</string>
+    <string id="SettingStartSensitivity">Auto Start Sensitivity</string>
+    <string id="SensitivityConservative">Conservative</string>
+    <string id="SensitivityNormal">Normal</string>
+    <string id="SensitivitySensitive">Sensitive</string>
+
+    <string id="SettingSummaryDuration">Summary Duration</string>
+    <string id="SummarySeconds2">2 seconds</string>
+    <string id="SummarySeconds4">4 seconds</string>
+    <string id="SummarySeconds6">6 seconds</string>
+
+    <string id="FitClimbNumber">Climb Number</string>
+    <string id="FitClimbMode">1 Rope / 2 Boulder / 3 Auto</string>
+    <string id="FitClimbHeight">Climb Height</string>
+    <string id="FitClimbDuration">Climb Duration</string>
+    <string id="FitRestBefore">Rest Before</string>
+    <string id="FitEndReason">End Reason</string>
+    <string id="FitClimbAverageHeartRate">Climb Average Heart Rate</string>
+    <string id="FitClimbMaximumHeartRate">Climb Maximum Heart Rate</string>
+    <string id="FitAttemptId">Attempt ID</string>
+    <string id="FitValidValues">Valid Values</string>
+    <string id="FitTotalClimbs">Total Climbs</string>
+    <string id="FitRopeClimbs">Rope Climbs</string>
+    <string id="FitBoulderClimbs">Boulder Climbs</string>
+    <string id="FitAutoClimbs">Auto Climbs</string>
+    <string id="FitTotalVertical">Total Vertical</string>
+    <string id="FitMaximumClimbHeight">Maximum Climb Height</string>
+    <string id="FitClimbingTime">Climbing Time</string>
+    <string id="FitRestTime">Rest Time</string>
+    <string id="FitElapsedTime">Elapsed Time</string>
+    <string id="FitSessionAverageHeartRate">Session Average Heart Rate</string>
+    <string id="FitSessionMaximumHeartRate">Session Maximum Heart Rate</string>
+    <string id="FitSchemaVersion">Climb Schema Version</string>
+    <string id="FitUnitCount">count</string>
+    <string id="FitUnitCode">code</string>
+    <string id="FitUnitId">ID</string>
+    <string id="FitUnitBits">bits</string>
+    <string id="FitUnitVersion">version</string>
+    <string id="FitUnitMeters">m</string>
+    <string id="FitUnitSeconds">s</string>
+    <string id="FitUnitBpm">bpm</string>
+    <string id="FitClimbSuccess">Successful</string>
+    <string id="FitClimbFailure">Failed</string>
+    <string id="FitClimbRated">Result recorded</string>
+    <string id="FitSuccesses">Successful Climbs</string>
+    <string id="FitFailures">Failed Climbs</string>
+    <string id="FitSuccessPercent">Success Rate</string>
+    <string id="FitUnrated">Unrated Climbs</string>
+    <string id="FitUnitPercent">%</string>
+    <string id="FitRopeResults">Rope Success / Failed</string>
+    <string id="FitBoulderResults">Boulder Success / Failed</string>
+    <string id="FitAutoResults">Auto Success / Failed</string>
+</strings>

@@ -1,0 +1,244 @@
+BUILD SUCCESSFUL
+------------------------------------------------------------------------------
+Executing test controllerNativeMixedAcceptance...
+DEBUG (22:41): Mixed controller acceptance saved three real FIT climb laps; memory=104600
+PASS
+------------------------------------------------------------------------------
+Executing test autoFlatNoiseDriftAndOneMeterNeverStart...
+PASS
+------------------------------------------------------------------------------
+Executing test autoSteadyThreeMeterStartAndLogicalDescentEnd...
+PASS
+------------------------------------------------------------------------------
+Executing test autoCandidateCancelAndStall...
+PASS
+------------------------------------------------------------------------------
+Executing test autoNullGapAndTimeReversalCancelCandidates...
+PASS
+------------------------------------------------------------------------------
+Executing test autoManualOverrideAndMissingActiveAltitude...
+PASS
+------------------------------------------------------------------------------
+Executing test autoFilteredAscentRecoveryAndConfirmationReseed...
+PASS
+------------------------------------------------------------------------------
+Executing test autoPresetsAndStartWindowBound...
+PASS
+------------------------------------------------------------------------------
+Executing test controllerManualAcceptance...
+PASS
+------------------------------------------------------------------------------
+Executing test controllerRecordingFailuresRecover...
+PASS
+------------------------------------------------------------------------------
+Executing test controllerDiscardAndSensorCleanup...
+PASS
+------------------------------------------------------------------------------
+Executing test controllerRopeFilteredDescentAndBoulderOverride...
+PASS
+------------------------------------------------------------------------------
+Executing test controllerPauseConfirmationKeepsPeakAligned...
+PASS
+------------------------------------------------------------------------------
+Executing test controllerRopeRecoverySpikeNeverEndsClimb...
+PASS
+------------------------------------------------------------------------------
+Executing test controllerSummaryFailureNeverMarksIncompleteFitSaved...
+Exit summary: Injected recording failure
+PASS
+------------------------------------------------------------------------------
+Executing test controllerAutoStartEndHeartRateAndManualOverrides...
+PASS
+------------------------------------------------------------------------------
+Executing test controllerAutoCannotStartUnderMenuOrAfterMissingSensors...
+PASS
+------------------------------------------------------------------------------
+Executing test controllerMenuCloseAndModeChangeRequireFreshBaseline...
+PASS
+------------------------------------------------------------------------------
+Executing test controllerAutoManualFinishCannotReplayFilterRise...
+PASS
+------------------------------------------------------------------------------
+Executing test altitudeMedianEmaAndSpike...
+PASS
+------------------------------------------------------------------------------
+Executing test altitudeNullGapAndReversedTime...
+PASS
+------------------------------------------------------------------------------
+Executing test ropeCleanAscentDescentAndLogicalPeak...
+PASS
+------------------------------------------------------------------------------
+Executing test ropeNoiseLowClimbSpikeAndRebound...
+PASS
+------------------------------------------------------------------------------
+Executing test ropeMissingAndLongGapBreakContinuity...
+PASS
+------------------------------------------------------------------------------
+Executing test ropePresetsAndMinimumDuration...
+PASS
+------------------------------------------------------------------------------
+Executing test automaticHeartRateStopsAtStrictPeak...
+PASS
+------------------------------------------------------------------------------
+Executing test ropeStalledTrendCannotAgeIntoEnding...
+PASS
+------------------------------------------------------------------------------
+Executing test specifiedConservativeTraceMatrix...
+PASS
+------------------------------------------------------------------------------
+Executing test confirmationReseedsStrictPeakWithoutStaleTrend...
+PASS
+------------------------------------------------------------------------------
+Executing test filteredRecoverySpikesNeverManufactureDescent...
+PASS
+------------------------------------------------------------------------------
+Executing test manualStateTransitions...
+PASS
+------------------------------------------------------------------------------
+Executing test mixedModesPausesHeartRateAndRest...
+PASS
+------------------------------------------------------------------------------
+Executing test falseStartsAndTimeReversal...
+PASS
+------------------------------------------------------------------------------
+Executing test boundedHistoryAndHundredClimbs...
+DEBUG (22:41): History 100 usedMemory=155840
+DEBUG (22:41): History 256 usedMemory=248232
+PASS
+------------------------------------------------------------------------------
+Executing test automaticLogicalTimesAndSummaryPause...
+PASS
+------------------------------------------------------------------------------
+Executing test invalidTransitionsAreIgnored...
+PASS
+------------------------------------------------------------------------------
+Executing test verifiedMixedClimbingSport...
+PASS
+------------------------------------------------------------------------------
+Executing test stringSelectorsUseValueEquality...
+DEBUG (22:41): String operator value comparison: false
+PASS
+------------------------------------------------------------------------------
+Executing test fitSchemaIdsAndBudgets...
+PASS
+------------------------------------------------------------------------------
+Executing test fitFieldsPrecedeLapAndMissingValuesAreExplicit...
+PASS
+------------------------------------------------------------------------------
+Executing test fitFailedLapRetriesInOrderAndPausedSaveCannotResume...
+PASS
+------------------------------------------------------------------------------
+Executing test fitQueueCapacityAndResumeFailureState...
+PASS
+------------------------------------------------------------------------------
+Executing test fitSummaryTailAndSaveFailurePreserveRecording...
+PASS
+------------------------------------------------------------------------------
+Executing test nativeRecordingLifecycle...
+PASS
+------------------------------------------------------------------------------
+Executing test nativeFitMixedFixture...
+DEBUG (22:41): Export last FIT: modes 1,2,3; heights 15,-1,12; durations 12.5,4,8; rests 2,5.5,6; total 3/27m.
+PASS
+------------------------------------------------------------------------------
+Executing test openingBackExitsWithoutRecording...
+PASS
+------------------------------------------------------------------------------
+Executing test outcomeWaitsForChoiceAndCountsShortFailure...
+PASS
+------------------------------------------------------------------------------
+Executing test pauseFinishesResultBeforeStoppingRecording...
+PASS
+------------------------------------------------------------------------------
+Executing test forcedExitPreservesUnratedWithoutGuessingFailure...
+PASS
+------------------------------------------------------------------------------
+Executing test outcomeFitBreakdownAndLapRetry...
+PASS
+------------------------------------------------------------------------------
+Executing test pageDotsTrackPagesAndResultChoices...
+PASS
+------------------------------------------------------------------------------
+Executing test storagePageBoundaryFailureRecovers...
+History write: Obj: 776
+PASS
+------------------------------------------------------------------------------
+Executing test storageHundredClimbsPersistAndReadBack...
+DEBUG (22:41): 100 climbs persisted/read back; memory=111584
+PASS
+------------------------------------------------------------------------------
+Executing test uiAllocatedActionStringsRoutePauseAndConfirmation...
+PASS
+------------------------------------------------------------------------------
+Executing test uiAllocatedMenuSettingsSelectorsAndInvalidValues...
+PASS
+------------------------------------------------------------------------------
+Executing test uiConfirmationCancelAndDiscardRequireExplicitSelection...
+PASS
+------------------------------------------------------------------------------
+Executing test viewPagesPreserveHeadingsWithoutButtonInstructions...
+PASS
+
+==============================================================================
+RESULTS
+Test:                                                   Status:
+controllerNativeMixedAcceptance                         PASS
+autoFlatNoiseDriftAndOneMeterNeverStart                 PASS
+autoSteadyThreeMeterStartAndLogicalDescentEnd           PASS
+autoCandidateCancelAndStall                             PASS
+autoNullGapAndTimeReversalCancelCandidates              PASS
+autoManualOverrideAndMissingActiveAltitude              PASS
+autoFilteredAscentRecoveryAndConfirmationReseed         PASS
+autoPresetsAndStartWindowBound                          PASS
+controllerManualAcceptance                              PASS
+controllerRecordingFailuresRecover                      PASS
+controllerDiscardAndSensorCleanup                       PASS
+controllerRopeFilteredDescentAndBoulderOverride         PASS
+controllerPauseConfirmationKeepsPeakAligned             PASS
+controllerRopeRecoverySpikeNeverEndsClimb               PASS
+controllerSummaryFailureNeverMarksIncompleteFitSaved    PASS
+controllerAutoStartEndHeartRateAndManualOverrides       PASS
+controllerAutoCannotStartUnderMenuOrAfterMissingSensors PASS
+controllerMenuCloseAndModeChangeRequireFreshBaseline    PASS
+controllerAutoManualFinishCannotReplayFilterRise        PASS
+altitudeMedianEmaAndSpike                               PASS
+altitudeNullGapAndReversedTime                          PASS
+ropeCleanAscentDescentAndLogicalPeak                    PASS
+ropeNoiseLowClimbSpikeAndRebound                        PASS
+ropeMissingAndLongGapBreakContinuity                    PASS
+ropePresetsAndMinimumDuration                           PASS
+automaticHeartRateStopsAtStrictPeak                     PASS
+ropeStalledTrendCannotAgeIntoEnding                     PASS
+specifiedConservativeTraceMatrix                        PASS
+confirmationReseedsStrictPeakWithoutStaleTrend          PASS
+filteredRecoverySpikesNeverManufactureDescent           PASS
+manualStateTransitions                                  PASS
+mixedModesPausesHeartRateAndRest                        PASS
+falseStartsAndTimeReversal                              PASS
+boundedHistoryAndHundredClimbs                          PASS
+automaticLogicalTimesAndSummaryPause                    PASS
+invalidTransitionsAreIgnored                            PASS
+verifiedMixedClimbingSport                              PASS
+stringSelectorsUseValueEquality                         PASS
+fitSchemaIdsAndBudgets                                  PASS
+fitFieldsPrecedeLapAndMissingValuesAreExplicit          PASS
+fitFailedLapRetriesInOrderAndPausedSaveCannotResume     PASS
+fitQueueCapacityAndResumeFailureState                   PASS
+fitSummaryTailAndSaveFailurePreserveRecording           PASS
+nativeRecordingLifecycle                                PASS
+nativeFitMixedFixture                                   PASS
+openingBackExitsWithoutRecording                        PASS
+outcomeWaitsForChoiceAndCountsShortFailure              PASS
+pauseFinishesResultBeforeStoppingRecording              PASS
+forcedExitPreservesUnratedWithoutGuessingFailure        PASS
+outcomeFitBreakdownAndLapRetry                          PASS
+pageDotsTrackPagesAndResultChoices                      PASS
+storagePageBoundaryFailureRecovers                      PASS
+storageHundredClimbsPersistAndReadBack                  PASS
+uiAllocatedActionStringsRoutePauseAndConfirmation       PASS
+uiAllocatedMenuSettingsSelectorsAndInvalidValues        PASS
+uiConfirmationCancelAndDiscardRequireExplicitSelection  PASS
+viewPagesPreserveHeadingsWithoutButtonInstructions      PASS
+Ran 57 tests
+
+PASSED (passed=57, failed=0, errors=0)

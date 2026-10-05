@@ -1,0 +1,83 @@
+{
+  "integrity": true,
+  "decoder_errors": [],
+  "sport": "rock_climbing",
+  "sub_sport": "generic",
+  "native_laps": 4,
+  "climbs": [
+    {
+      "climb_number": 1,
+      "climb_mode": 1,
+      "climb_height": 15.0,
+      "climb_duration": 12.5,
+      "rest_before": 2.0,
+      "end_reason": 1,
+      "climb_avg_hr": 140.0,
+      "climb_max_hr": 160,
+      "attempt_id": 1,
+      "valid_values": 7
+    },
+    {
+      "climb_number": 2,
+      "climb_mode": 2,
+      "climb_height": -1.0,
+      "climb_duration": 4.0,
+      "rest_before": 5.5,
+      "end_reason": 1,
+      "climb_avg_hr": -1.0,
+      "climb_max_hr": 65535,
+      "attempt_id": 2,
+      "valid_values": 0
+    },
+    {
+      "climb_number": 3,
+      "climb_mode": 3,
+      "climb_height": 12.0,
+      "climb_duration": 8.0,
+      "rest_before": 6.0,
+      "end_reason": 3,
+      "climb_avg_hr": 160.0,
+      "climb_max_hr": 170,
+      "attempt_id": 3,
+      "valid_values": 7
+    }
+  ],
+  "summary": {
+    "total_climbs": 3,
+    "rope_climbs": 1,
+    "boulder_climbs": 1,
+    "auto_climbs": 1,
+    "total_vertical": 27.0,
+    "max_climb_height": 15.0,
+    "climbing_time": 24.5,
+    "rest_time": 20.5,
+    "elapsed_time": 45.0,
+    "session_avg_hr": 156.0,
+    "session_max_hr": 180,
+    "climb_schema": 1
+  },
+  "developer_fields": [
+    "climb_number",
+    "climb_mode",
+    "climb_height",
+    "climb_duration",
+    "rest_before",
+    "end_reason",
+    "climb_avg_hr",
+    "climb_max_hr",
+    "attempt_id",
+    "valid_values",
+    "total_climbs",
+    "rope_climbs",
+    "boulder_climbs",
+    "auto_climbs",
+    "total_vertical",
+    "max_climb_height",
+    "climbing_time",
+    "rest_time",
+    "elapsed_time",
+    "session_avg_hr",
+    "session_max_hr",
+    "climb_schema"
+  ]
+}

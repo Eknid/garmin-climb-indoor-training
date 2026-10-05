@@ -1,0 +1,52 @@
+BUILD SUCCESSFUL
+error: Run No Evil result counts are inconsistent or no tests ran
+------------------------------------------------------------------------------
+Executing test nativeRecordingLifecycle...
+Creating FIT field 0
+Creating FIT field 1
+Creating FIT field 2
+Creating FIT field 3
+Creating FIT field 4
+Creating FIT field 5
+Creating FIT field 6
+Creating FIT field 7
+Creating FIT field 8
+Creating FIT field 9
+Creating FIT field 10
+Creating FIT field 11
+Creating FIT field 12
+Creating FIT field 16
+Creating FIT field 17
+Creating FIT field 18
+Creating FIT field 19
+Creating FIT field 20
+Creating FIT field 21
+Creating FIT field 22
+Creating FIT field 23
+Creating FIT field 24
+Creating FIT field 25
+Creating FIT field 26
+Creating FIT field 27
+Creating FIT field 28
+Creating FIT field 29
+Creating FIT field 30
+Creating FIT field 31
+Creating FIT field 32
+
+Error: System Error
+Details: Failed invoking <symbol>
+Stack: 
+  - createFields() at /Users/eknid.mucollari/Codes/Garmin-climbing-activity/source/FitRecorder.mc:27 0x1000952f 
+  - startSession() at /Users/eknid.mucollari/Codes/Garmin-climbing-activity/source/FitRecorder.mc:38 0x1000980d 
+  - nativeRecordingLifecycle() at /Users/eknid.mucollari/Codes/Garmin-climbing-activity/tests/NativeRecordingTests.mc:21 0x10000072 
+  - evaluate_test_entries_30_to_57() at /Users/eknid.mucollari/Codes/Garmin-climbing-activity/bin/gen/006-B4536-00/source/UnitTests.mcgen:204 0x1000cb3b 
+  - runTest() at /Users/eknid.mucollari/Codes/Garmin-climbing-activity/bin/gen/006-B4536-00/source/UnitTests.mcgen:249 0x1000cd18 
+ERROR
+
+==============================================================================
+RESULTS
+Test:                               Status:
+nativeRecordingLifecycle            ERROR
+Ran 1 test
+
+FAILED (passed=0, failed=0, errors=1)

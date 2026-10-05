@@ -1,0 +1,12 @@
+BUILD SUCCESSFUL
+------------------------------------------------------------------------------
+Executing test viewPagesPreserveHeadingsWithoutButtonInstructions...
+PASS
+
+==============================================================================
+RESULTS
+Test:                                              Status:
+viewPagesPreserveHeadingsWithoutButtonInstructions PASS
+Ran 1 test
+
+PASSED (passed=1, failed=0, errors=0)

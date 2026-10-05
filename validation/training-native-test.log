@@ -1,0 +1,13 @@
+BUILD SUCCESSFUL
+------------------------------------------------------------------------------
+Executing test nativeFitMixedFixture...
+DEBUG (22:36): Export last FIT: modes 1,2,3; heights 15,-1,12; durations 12.5,4,8; rests 2,5.5,6; total 3/27m.
+PASS
+
+==============================================================================
+RESULTS
+Test:                               Status:
+nativeFitMixedFixture               PASS
+Ran 1 test
+
+PASSED (passed=1, failed=0, errors=0)

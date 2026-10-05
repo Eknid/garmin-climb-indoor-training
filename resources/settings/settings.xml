@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <setting propertyKey="@Properties.lastMode" title="@Strings.SettingNextMode">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ModeRope</listEntry>
+            <listEntry value="2">@Strings.ModeBoulder</listEntry>
+            <listEntry value="3">@Strings.ModeAuto</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.endSensitivity" title="@Strings.SettingEndSensitivity">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SensitivityConservative</listEntry>
+            <listEntry value="1">@Strings.SensitivityNormal</listEntry>
+            <listEntry value="2">@Strings.SensitivitySensitive</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.startSensitivity" title="@Strings.SettingStartSensitivity">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SensitivityConservative</listEntry>
+            <listEntry value="1">@Strings.SensitivityNormal</listEntry>
+            <listEntry value="2">@Strings.SensitivitySensitive</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.summarySeconds" title="@Strings.SettingSummaryDuration">
+        <settingConfig type="list">
+            <listEntry value="2">@Strings.SummarySeconds2</listEntry>
+            <listEntry value="4">@Strings.SummarySeconds4</listEntry>
+            <listEntry value="6">@Strings.SummarySeconds6</listEntry>
+        </settingConfig>
+    </setting>
+</settings>

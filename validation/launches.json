@@ -1,0 +1,42 @@
+[
+  {
+    "device": "fenix843mm",
+    "observed_seconds": 6,
+    "transport_exit": null,
+    "output": "",
+    "pass": true,
+    "scope": "startup/runtime-error smoke; no screenshot capture"
+  },
+  {
+    "device": "fenix8solar47mm",
+    "observed_seconds": 6,
+    "transport_exit": null,
+    "output": "",
+    "pass": true,
+    "scope": "startup/runtime-error smoke; no screenshot capture"
+  },
+  {
+    "device": "fenix8solar51mm",
+    "observed_seconds": 6,
+    "transport_exit": null,
+    "output": "",
+    "pass": true,
+    "scope": "startup/runtime-error smoke; no screenshot capture"
+  },
+  {
+    "device": "fenix8pro47mm",
+    "observed_seconds": 6,
+    "transport_exit": null,
+    "output": "",
+    "pass": true,
+    "scope": "startup/runtime-error smoke; no screenshot capture"
+  },
+  {
+    "device": "fenix847mm",
+    "observed_seconds": 6,
+    "transport_exit": null,
+    "output": "",
+    "pass": true,
+    "scope": "startup/runtime-error smoke; no screenshot capture"
+  }
+]

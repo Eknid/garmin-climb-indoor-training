@@ -1,0 +1,328 @@
+{
+  "git_repository": false,
+  "reason": "Workspace began empty; new-source empty-directory diff is source-diff.log.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 140,
+      "sha256": "52d3ebf313e516121414c97d7f15c818caf5836994617901256c3a6e57900cdc"
+    },
+    {
+      "path": ".vscode/extensions.json",
+      "bytes": 53,
+      "sha256": "c1d4875818851329874336f934059905df4e33a78cac5c46871d5ac069c1fc1e"
+    },
+    {
+      "path": ".vscode/tasks.json",
+      "bytes": 1744,
+      "sha256": "a500f3a5baf0b971163955fe97b5ce5f4944b386e456c62ab90007888589fbaf"
+    },
+    {
+      "path": "README.MD",
+      "bytes": 8133,
+      "sha256": "dc28d9c42bbec1e5f4bf3f759797b12e4d9eb020829886e3df7e050ee64c4d00"
+    },
+    {
+      "path": "docs/API_NOTES.md",
+      "bytes": 6288,
+      "sha256": "14a235ac25b5dcc239d516a07ee9d23d72a4af292df1e8f2d271f91a97b133f0"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 7021,
+      "sha256": "b525ac132fc20f7cd82e55bd8370f34b21f56154d648e58661a68675870dda63"
+    },
+    {
+      "path": "docs/BUILD.md",
+      "bytes": 5146,
+      "sha256": "af0e2950e0542ed2199f0c8e83416be532ae11c291cb2497cd820acbc4b14760"
+    },
+    {
+      "path": "docs/CONNECT_SETUP.md",
+      "bytes": 2439,
+      "sha256": "ed492c1c97b43c20996356fe5d6e853ab2c36ed3c924eb6e08ec21bdeae308fd"
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "bytes": 13114,
+      "sha256": "ac978b5967c9b0b02e5539b2a55922dee125eabd4d6801bc89c250a4f7958878"
+    },
+    {
+      "path": "docs/DETECTION_ALGORITHM.md",
+      "bytes": 11152,
+      "sha256": "46a3bf9ef668a3ce61f221f2b04fb066a476c4720b81de939d594e172515cd82"
+    },
+    {
+      "path": "docs/ENVIRONMENT.md",
+      "bytes": 4525,
+      "sha256": "a66a2aeeee99b0e57a66151ccc9f6338b36de5b8b9839dcd8da281b93b8a9dd5"
+    },
+    {
+      "path": "docs/FIT_FIELDS.md",
+      "bytes": 4936,
+      "sha256": "b29fb175f05adac7bf88a4c16cbcf39cd1a2fd0f25e91b2c7086ac8dc61d7247"
+    },
+    {
+      "path": "docs/HARDWARE_TEST.md",
+      "bytes": 5294,
+      "sha256": "b8e50ddbae83c4a5e7a1c2f8fe393a3c97f0ad086b41e38a6002cb94357a0c7c"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_PLAN.md",
+      "bytes": 4137,
+      "sha256": "1f4ecea5bce6f256b17a5512360b399c212f1d133672f1447a7c47652ea7209c"
+    },
+    {
+      "path": "docs/SIDELOAD.md",
+      "bytes": 3454,
+      "sha256": "5dfaa4db144ca95377fd21802126b522b32a7c627a09ec79054575d40aa8f4ed"
+    },
+    {
+      "path": "docs/SPECIFICATION.md",
+      "bytes": 42660,
+      "sha256": "193aaf162d39aff6af35946951ba880a143b4aee9a355bbbe4b5a98e5a713cac"
+    },
+    {
+      "path": "manifest.xml",
+      "bytes": 699,
+      "sha256": "2ff4f357e7a699c2761b46bdb0b83c59eea70cc8094bea35d7aca943d0746b50"
+    },
+    {
+      "path": "monkey.jungle",
+      "bytes": 93,
+      "sha256": "5ccf2b7530987d433ec282b635720c20e3ae9ee120dc4f4d229ced09926984ec"
+    },
+    {
+      "path": "resources/drawables/drawables.xml",
+      "bytes": 144,
+      "sha256": "79ddb830a870864d8e42962e57986dfdf7643717e08c7dab4b2af1ef9ac0ea06"
+    },
+    {
+      "path": "resources/drawables/launcher_icon.png",
+      "bytes": 1280796,
+      "sha256": "dc2567eed630928f8e4e12be7a548e1357fecee9bee3b034cf7a20ba3befe37e"
+    },
+    {
+      "path": "resources/fitfields.xml",
+      "bytes": 4694,
+      "sha256": "0946710ed2fb26494c338a36f70554f9eb2b14f649adcec01d2f61e40190e435"
+    },
+    {
+      "path": "resources/settings/properties.xml",
+      "bytes": 603,
+      "sha256": "98ef0c269ea8e5bd986b8dd60db53a7450d7177a952506ccff8d974d2f629f2e"
+    },
+    {
+      "path": "resources/settings/settings.xml",
+      "bytes": 1730,
+      "sha256": "3ed67d4fe314f6400776f2c295cab70aba758e05fb0aae128fff9a5c476f9a02"
+    },
+    {
+      "path": "resources/strings/strings.xml",
+      "bytes": 3260,
+      "sha256": "1f8678db6fef2bbc7225e2202ca4f1b9a88faf8c7d9f7a3f7c71b3a9f4b2750c"
+    },
+    {
+      "path": "resources-fenix843mm/drawables/drawables.xml",
+      "bytes": 170,
+      "sha256": "758eef35f26959bc5a3acbcbab7a92e76685c16d02d1cb3dfcb719bb1ad2ae0a"
+    },
+    {
+      "path": "resources-fenix8solar47mm/drawables/drawables.xml",
+      "bytes": 170,
+      "sha256": "be764949c37084efa5f04b82309a310e4731f2cba057e041a87fb5d609cf2972"
+    },
+    {
+      "path": "resources-fenix8solar51mm/drawables/drawables.xml",
+      "bytes": 170,
+      "sha256": "be764949c37084efa5f04b82309a310e4731f2cba057e041a87fb5d609cf2972"
+    },
+    {
+      "path": "source/AltitudeFilter.mc",
+      "bytes": 1763,
+      "sha256": "a223167209c413787a2434dc7025b35725511a9d7ece137d39b5a8a5593ca49a"
+    },
+    {
+      "path": "source/AppClock.mc",
+      "bytes": 558,
+      "sha256": "05fba0c16bbede4b68453a3292f3cdde23adfb6277f6f7536b315410f6b22940"
+    },
+    {
+      "path": "source/AppConstants.mc",
+      "bytes": 1441,
+      "sha256": "aa0af2ca2bae0183c0aa039fb623326615ffa9569979e66483dc74c2726d3127"
+    },
+    {
+      "path": "source/AppController.mc",
+      "bytes": 15453,
+      "sha256": "61e0f649846239dcd5099d97a3e2e32e574b1555e0eed30ea57ff7d8587fb8c6"
+    },
+    {
+      "path": "source/AppEnums.mc",
+      "bytes": 424,
+      "sha256": "cc41be5e2e91f80f4694481f2e30c619d69af68564610fe8cb80cbfd72e1ac4b"
+    },
+    {
+      "path": "source/AutoClimbDetector.mc",
+      "bytes": 5968,
+      "sha256": "09f1bf459b5d3f757fc2d8690f3ef56e415be5c48b07664867a4253fd468734c"
+    },
+    {
+      "path": "source/ClimbApp.mc",
+      "bytes": 758,
+      "sha256": "110fe4b0e131f1dfbcab9a4532f40d12eaa2d8bbab339c55993540539225de12"
+    },
+    {
+      "path": "source/ClimbAttempt.mc",
+      "bytes": 4087,
+      "sha256": "a2c2e896ebe5dc83487bf70e418ec50248f97b13d45f437d62984b852332b88f"
+    },
+    {
+      "path": "source/ClimbDelegate.mc",
+      "bytes": 7449,
+      "sha256": "df35dbf351470e8fd2ceb698ed1a31a9799c6bd8e861cdab9797331ff01ccf5d"
+    },
+    {
+      "path": "source/ClimbStateMachine.mc",
+      "bytes": 2581,
+      "sha256": "b58b2266f726073cff9e5a0775de7b59976d48f3a92504b2812bfa7eeaba245e"
+    },
+    {
+      "path": "source/ClimbView.mc",
+      "bytes": 9686,
+      "sha256": "02a51a544283185a0cb6b46df5d0db8771140b80e0873e5b097aa39cc2cea462"
+    },
+    {
+      "path": "source/FitRecorder.mc",
+      "bytes": 8679,
+      "sha256": "b472a87664cbd5ea7db8a73b261de4a1f4591b2a5bc40240d0f231dca3c29d2c"
+    },
+    {
+      "path": "source/FitSchema.mc",
+      "bytes": 3954,
+      "sha256": "1ce7d53affcc2e4d8ccedbe2ee192baf987a946479ff2413d8a67138d19772d3"
+    },
+    {
+      "path": "source/RopeEndDetector.mc",
+      "bytes": 5266,
+      "sha256": "3e81824047ed96428f4054e18d443487b5b7b2a1df41e479a92804dd0a5078f7"
+    },
+    {
+      "path": "source/SensorService.mc",
+      "bytes": 1256,
+      "sha256": "5a6f9156dcc9bccae5d39a633447ccdf366bc993d3fb214910fadfb943de966b"
+    },
+    {
+      "path": "source/SessionController.mc",
+      "bytes": 3466,
+      "sha256": "c486ed3a80828414c84cae85f4e2ddb885362113f718c84c72834ecb90524ce5"
+    },
+    {
+      "path": "source/SessionStats.mc",
+      "bytes": 2427,
+      "sha256": "1431c95c4a814474e1b3cdab1656bb33cf633a2ebd6e841364493b9cb6fea160"
+    },
+    {
+      "path": "source/SessionStore.mc",
+      "bytes": 2364,
+      "sha256": "1702c1a23424f36afdbf718839f339f2e7539a3f8d5d26a8e435bfc6f8bbf9c9"
+    },
+    {
+      "path": "source/SettingsManager.mc",
+      "bytes": 1248,
+      "sha256": "10df9ebffd40fbd3e1007112f9aa955450f5bf965ad513184304b6d9f24ac74a"
+    },
+    {
+      "path": "source/UiFormatter.mc",
+      "bytes": 903,
+      "sha256": "bbe29822976a31f024ee8d55819f39fa2b1e90637d3a2072e4c379142fe6e841"
+    },
+    {
+      "path": "tests/AcceptanceTests.mc",
+      "bytes": 2235,
+      "sha256": "2e700a8ae02c29d5b87560579666014bd5407b303fce50b35b7570ed987960dc"
+    },
+    {
+      "path": "tests/AutoTests.mc",
+      "bytes": 8053,
+      "sha256": "5c92795fe611fa117e60ae0a3346a0760daa024262356eb6a7dbffc056271f0d"
+    },
+    {
+      "path": "tests/ControllerTests.mc",
+      "bytes": 15971,
+      "sha256": "b3ae64fb27e669a3863cc9b4f448aa9cd7ba83e4acade972d782401a7482c667"
+    },
+    {
+      "path": "tests/DetectorTests.mc",
+      "bytes": 10925,
+      "sha256": "906a7400c301e6f47aa2afd6e25b111d25eb1fb45c4ea745d4986091c03eac79"
+    },
+    {
+      "path": "tests/DomainTests.mc",
+      "bytes": 8058,
+      "sha256": "d7a41f9e63e1ff6257d0f83c4c2f659a3ee2d29f8f0e2ecc014eda62024c6699"
+    },
+    {
+      "path": "tests/EnvironmentTests.mc",
+      "bytes": 557,
+      "sha256": "339c2b7381d36ab795740520c25d49a297b506de4499f847c1a697b28f827942"
+    },
+    {
+      "path": "tests/FitTests.mc",
+      "bytes": 8090,
+      "sha256": "212369a45f05bb316d0cc8884b0f68fb59abd48640f557d7df0bfa2b8d8f9822"
+    },
+    {
+      "path": "tests/NativeRecordingTests.mc",
+      "bytes": 3896,
+      "sha256": "870f3c004b15a76c1c542d16398d511f8e5ef793f12e4aa40482814136e84a6c"
+    },
+    {
+      "path": "tests/OutcomeTests.mc",
+      "bytes": 5256,
+      "sha256": "b2793c0615dd0366c60d03fa82499a46a8aa937193541aa3c7da3464efc53ef1"
+    },
+    {
+      "path": "tests/StorageTests.mc",
+      "bytes": 2712,
+      "sha256": "cbd61a65bd0df5f4ff730d3ea6c1a4b545a4ea6c844063a0d93a72580de366da"
+    },
+    {
+      "path": "tests/UiTests.mc",
+      "bytes": 5296,
+      "sha256": "d89fa8f0e18215f4c9919498fb160d0e6c6203d5993823f5611775476271fbf3"
+    },
+    {
+      "path": "tests/ViewTests.mc",
+      "bytes": 2384,
+      "sha256": "405c4a9445bc0b85b47f86cdbb3fa9f0e326cc216749cccdb17b8fa3d3ed061c"
+    },
+    {
+      "path": "tests/fixtures/fit-mixed-expected.json",
+      "bytes": 1489,
+      "sha256": "dfcf36f97a8a9ef53c891c2dffde10f2adb71d0892042795044d2d31b1b88e8a"
+    },
+    {
+      "path": "tools/ciq.py",
+      "bytes": 12546,
+      "sha256": "4459bd3a71c7277a025cc4c20368538d512fdfcde02c84982b313ee7395a6baa"
+    },
+    {
+      "path": "tools/validate_fit.py",
+      "bytes": 7774,
+      "sha256": "cc04f34807c65b4768034df76c1285b97ada755904d1d6d08a9a328b19b23cb0"
+    }
+  ],
+  "xml_and_json_parse": "PASS",
+  "text_and_link_issues": [],
+  "reference_note": "Original pasted specification retained without whitespace normalization.",
+  "latest_ui_validation": "ui-fix-tests.log; four screen sizes and all normal page states; five release builds in builds.log",
+  "launcher_icon_validation": "Exact supplied PNG, native compiler sizing; all five release builds passed without warnings.",
+  "latest_training_validation": {
+    "tests": "training-tests.log: 57 passed, 0 failed, 0 errors",
+    "builds": "training-builds.log: five profiles, no warnings",
+    "packages": "training-package.log: production and separate-ID beta, no warnings; 29 fields in all SDK variants",
+    "fit": "training-mixed-climbs.json: exact outcomes and counts, 66.7% success, three laps plus cleared tail",
+    "connect_mobile": "Not yet uploaded/installed/synced; see docs/CONNECT_SETUP.md"
+  }
+}

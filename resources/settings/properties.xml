@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<properties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <property id="lastMode" type="number">1</property>
+    <property id="endSensitivity" type="number">1</property>
+    <property id="startSensitivity" type="number">1</property>
+    <property id="summarySeconds" type="number">4</property>
+    <!-- Development diagnostic switch. It is intentionally not exposed as a user setting. -->
+    <property id="debug" type="boolean">false</property>
+</properties>

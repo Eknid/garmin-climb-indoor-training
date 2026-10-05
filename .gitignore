@@ -1,0 +1,11 @@
+/bin/
+/dist/*.debug.xml
+/dist/*.prg.debug.xml
+/.keys/
+*.der
+*.pem
+__pycache__/
+.DS_Store
+/dist/gen/
+/dist/external-mir/
+/dist/internal-mir/

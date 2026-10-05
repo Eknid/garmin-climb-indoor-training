@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <fitContributions>
+        <fitField id="0" sortOrder="0" displayInActivityLaps="true" dataLabel="@Strings.FitClimbNumber" unitLabel="@Strings.FitUnitCount" />
+        <fitField id="1" sortOrder="1" displayInActivityLaps="true" dataLabel="@Strings.FitClimbMode" unitLabel="@Strings.FitUnitCode" />
+        <fitField id="2" sortOrder="2" displayInActivityLaps="true" precision="1" dataLabel="@Strings.FitClimbHeight" unitLabel="@Strings.FitUnitMeters" />
+        <fitField id="3" sortOrder="3" displayInActivityLaps="true" precision="1" dataLabel="@Strings.FitClimbDuration" unitLabel="@Strings.FitUnitSeconds" />
+        <fitField id="4" sortOrder="4" displayInActivityLaps="true" precision="1" dataLabel="@Strings.FitRestBefore" unitLabel="@Strings.FitUnitSeconds" />
+        <fitField id="5" sortOrder="5" displayInActivityLaps="true" dataLabel="@Strings.FitEndReason" unitLabel="@Strings.FitUnitCode" />
+        <fitField id="6" sortOrder="6" displayInActivityLaps="true" precision="0" dataLabel="@Strings.FitClimbAverageHeartRate" unitLabel="@Strings.FitUnitBpm" />
+        <fitField id="7" sortOrder="7" displayInActivityLaps="true" precision="0" dataLabel="@Strings.FitClimbMaximumHeartRate" unitLabel="@Strings.FitUnitBpm" />
+        <fitField id="8" sortOrder="8" displayInActivityLaps="true" dataLabel="@Strings.FitAttemptId" unitLabel="@Strings.FitUnitId" />
+        <fitField id="9" sortOrder="9" displayInActivityLaps="true" dataLabel="@Strings.FitValidValues" unitLabel="@Strings.FitUnitBits" />
+
+        <fitField id="16" sortOrder="16" displayInActivitySummary="true" dataLabel="@Strings.FitTotalClimbs" unitLabel="@Strings.FitUnitCount" />
+        <fitField id="17" sortOrder="17" displayInActivitySummary="true" dataLabel="@Strings.FitRopeClimbs" unitLabel="@Strings.FitUnitCount" />
+        <fitField id="18" sortOrder="18" displayInActivitySummary="true" dataLabel="@Strings.FitBoulderClimbs" unitLabel="@Strings.FitUnitCount" />
+        <fitField id="19" sortOrder="19" displayInActivitySummary="true" dataLabel="@Strings.FitAutoClimbs" unitLabel="@Strings.FitUnitCount" />
+        <fitField id="20" sortOrder="20" displayInActivitySummary="true" precision="1" dataLabel="@Strings.FitTotalVertical" unitLabel="@Strings.FitUnitMeters" />
+        <fitField id="21" sortOrder="21" displayInActivitySummary="true" precision="1" dataLabel="@Strings.FitMaximumClimbHeight" unitLabel="@Strings.FitUnitMeters" />
+        <fitField id="22" sortOrder="22" displayInActivitySummary="true" precision="1" dataLabel="@Strings.FitClimbingTime" unitLabel="@Strings.FitUnitSeconds" />
+        <fitField id="23" sortOrder="23" displayInActivitySummary="true" precision="1" dataLabel="@Strings.FitRestTime" unitLabel="@Strings.FitUnitSeconds" />
+        <fitField id="24" sortOrder="24" displayInActivitySummary="true" precision="1" dataLabel="@Strings.FitElapsedTime" unitLabel="@Strings.FitUnitSeconds" />
+        <fitField id="10" sortOrder="10" displayInActivityLaps="true" precision="0" dataLabel="@Strings.FitClimbSuccess" unitLabel="@Strings.FitUnitCount" />
+        <fitField id="11" sortOrder="11" displayInActivityLaps="true" precision="0" dataLabel="@Strings.FitClimbFailure" unitLabel="@Strings.FitUnitCount" />
+        <fitField id="12" sortOrder="12" displayInActivityLaps="true" precision="0" dataLabel="@Strings.FitClimbRated" unitLabel="@Strings.FitUnitCount" />
+        <fitField id="28" sortOrder="28" displayInActivitySummary="true" precision="0" dataLabel="@Strings.FitSuccesses" unitLabel="@Strings.FitUnitCount" />
+        <fitField id="29" sortOrder="29" displayInActivitySummary="true" precision="0" dataLabel="@Strings.FitFailures" unitLabel="@Strings.FitUnitCount" />
+        <fitField id="30" sortOrder="30" displayInActivitySummary="true" precision="1" dataLabel="@Strings.FitSuccessPercent" unitLabel="@Strings.FitUnitPercent" />
+        <fitField id="31" sortOrder="31" displayInActivitySummary="true" precision="0" dataLabel="@Strings.FitUnrated" unitLabel="@Strings.FitUnitCount" />
+        <fitField id="13" sortOrder="13" displayInActivitySummary="true" dataLabel="@Strings.FitRopeResults" unitLabel="@Strings.FitUnitCount" />
+        <fitField id="14" sortOrder="14" displayInActivitySummary="true" dataLabel="@Strings.FitBoulderResults" unitLabel="@Strings.FitUnitCount" />
+        <fitField id="15" sortOrder="15" displayInActivitySummary="true" dataLabel="@Strings.FitAutoResults" unitLabel="@Strings.FitUnitCount" />
+    </fitContributions>
+</resources>

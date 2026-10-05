@@ -1,0 +1,88 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Climb: SDK doctor",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "tools/ciq.py",
+        "doctor"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Climb: Build for simulator",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "tools/ciq.py",
+        "build"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Climb: Run in simulator",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "tools/ciq.py",
+        "run"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Climb: Run tests",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "tools/ciq.py",
+        "test"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Climb: Build for device",
+      "type": "process",
+      "command": "python3",
+      "args": [
+        "tools/ciq.py",
+        "build",
+        "--release",
+        "--device",
+        "${input:climbDevice}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "climbDevice",
+      "type": "pickString",
+      "description": "Select the exact watch profile",
+      "options": [
+        "fenix843mm",
+        "fenix847mm",
+        "fenix8solar47mm",
+        "fenix8solar51mm",
+        "fenix8pro47mm"
+      ],
+      "default": "fenix847mm"
+    }
+  ]
+}

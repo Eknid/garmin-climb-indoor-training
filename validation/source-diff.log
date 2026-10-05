@@ -1,0 +1,21 @@
+ /dev/null => source/AltitudeFilter.mc    |  37 +++++
+ /dev/null => source/AppClock.mc          |  18 +++
+ /dev/null => source/AppConstants.mc      |  38 ++++++
+ /dev/null => source/AppController.mc     | 225 +++++++++++++++++++++++++++++++
+ /dev/null => source/AppEnums.mc          |   7 +
+ /dev/null => source/AutoClimbDetector.mc | 100 ++++++++++++++
+ /dev/null => source/ClimbApp.mc          |  18 +++
+ /dev/null => source/ClimbAttempt.mc      |  67 +++++++++
+ /dev/null => source/ClimbDelegate.mc     | 112 +++++++++++++++
+ /dev/null => source/ClimbStateMachine.mc |  35 +++++
+ /dev/null => source/ClimbView.mc         | 124 +++++++++++++++++
+ /dev/null => source/FitRecorder.mc       | 144 ++++++++++++++++++++
+ /dev/null => source/FitSchema.mc         |  48 +++++++
+ /dev/null => source/RopeEndDetector.mc   |  94 +++++++++++++
+ /dev/null => source/SensorService.mc     |  32 +++++
+ /dev/null => source/SessionController.mc |  61 +++++++++
+ /dev/null => source/SessionStats.mc      |  29 ++++
+ /dev/null => source/SessionStore.mc      |  53 ++++++++
+ /dev/null => source/SettingsManager.mc   |  29 ++++
+ /dev/null => source/UiFormatter.mc       |  15 +++
+ 20 files changed, 1286 insertions(+)
